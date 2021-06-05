@@ -1,1 +1,1 @@
-This repo contains [your name]'s portfolio and SPS projects.
+This repo contains Toya's portfolio and SPS projects.
