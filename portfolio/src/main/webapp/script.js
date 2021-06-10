@@ -11,18 +11,21 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-
+ 
 /**
- * Adds a random greeting to the page.
+ * Adds a random fact to the page.
  */
 function addRandomGreeting() {
-  const greetings =
-      ['Hello world!', '¡Hola Mundo!', '你好，世界！', 'Bonjour le monde!'];
+  const facts =
+      ['I walked a full 20 miles in one day in support of the Walk for Hunger.',
+       'I was on TV before!', 'I love colorful Colorado (:', 
+       'I enjoy kpop dance with college friends', 'I also go by Tora!',
+    'I can rollerblade and iceskate backwards'];
 
-  // Pick a random greeting.
-  const greeting = greetings[Math.floor(Math.random() * greetings.length)];
+  // Pick a random fact.
+  const randomFact = facts[Math.floor(Math.random() * facts.length)];
 
   // Add it to the page.
   const greetingContainer = document.getElementById('greeting-container');
-  greetingContainer.innerText = greeting;
+  greetingContainer.innerText = randomFact;
 }
