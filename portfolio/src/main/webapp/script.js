@@ -15,7 +15,7 @@
 /**
  * Adds a random fact to the page.
  */
-function addRandomFact() {
+function addRandomGreeting() {
   const facts =
       ['I walked a full 20 miles in one day in support of the Walk for Hunger.',
        'I was on TV before!', 'I love colorful Colorado (:', 
@@ -26,6 +26,6 @@ function addRandomFact() {
   const randomFact = facts[Math.floor(Math.random() * facts.length)];
 
   // Add it to the page.
-  const factsContainer = document.getElementById('facts-container');
-  factsContainer.innerText = randomFact;
+  const greetingContainer = document.getElementById('greeting-container');
+  greetingContainer.innerText = randomFact;
 }
